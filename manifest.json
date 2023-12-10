@@ -1,0 +1,19 @@
+{
+    "name": "PlayFastApp",
+    "short_name": "PlayFast",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#FAFAFA",
+    "theme_color": "#FE5000",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/images/icons/icon-72x72.png",
+            "type": "image/png", "sizes": "72x72"
+        },
+        {
+            "src": "/images/icons/icon-96x96.png",
+            "type": "image/png", "sizes": "96x96"
+        }
+    ]
+}

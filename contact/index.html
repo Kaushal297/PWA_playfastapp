@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FE5000" />
+    <meta name="description" content="play fest app" />
+    <link rel="manifest" href="../manifest.json" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="header-logo mb-0">
+            <span>Play</span>&#9884;<span class="text-primary">Fast</span>
+        </h1>
+        <nav>
+            <ul class="nav nav-tabs header-navigation">
+                <li class="nav-item ms-auto">
+                    <a href="/" class="nav-link" aria-current="true">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/" class="nav-link">
+                        Matches
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about" class="nav-link">
+                        About Us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact" class="nav-link active">
+                        Contact
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/terms" class="nav-link">
+                        Terms & Conditions
+                    </a>
+                </li>
+                <li class="nav-item ms-auto">
+                    <a href="/" class="nav-link nav-link-action">
+                        Join
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row mt-5 contact-height">
+            <div class="col-6">
+                <div class="contact-container">
+                    <div class="cc-svg">
+                        <h3>Get in touch with us about:</h3>
+                        <ul>
+                            <li>Partnership Opportunities</li>
+                            <li>Game issues</li>
+                            <li>Delete Account</li>
+                            <li>etc</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <form action="" class="contact-form">
+                    <input type="text" id="contactName" class="form-control" placeholder="Name" required>
+                    <input type="email" id="contactEmail" class="form-control" placeholder="Email" required>
+                    <input type="tel" id="contactPhoneNumber" class="form-control" placeholder="Phone Number"
+                        pattern="[0-9]" required>
+                    <input type="text" id="contactCity" class="form-control" placeholder="City" required>
+                    <textarea id="contactMessage" class="form-control" placeholder="Message" rows="5"
+                        required></textarea>
+
+                    <input type="submit" class="btn btn-primary" value="Send">
+                </form>
+            </div>
+        </div>
+
+        <div id="scrollToTop" class="scroll-to-top d-none">
+            <div>&uarr;</div>
+            Back to Top
+        </div>
+    </main>
+
+    <footer>
+        Copyright © 2023 All Rights Reserved Developed by PlayFast
+    </footer>
+
+    <script src="../scripts/bootstrap.bundle.min.js"></script>
+
+    <script src="../scripts/index.js"></script>
+</body>
+
+</html>
